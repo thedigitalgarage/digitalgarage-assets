@@ -9440,7 +9440,7 @@ body {
 }
 
 .footer-digital-garage .logo a {
-    background: url(/_images/DigitalGarage_logo.svg) no-repeat;
+    background: url(/images/DigitalGarage_logo.svg) no-repeat;
     display: inline-block;
     height: 34px;
     margin: 0;
@@ -9477,7 +9477,7 @@ body {
 }
 
 .footer-digital-garage-new .logo a {
-    background: url(../_images/DigitalGarage_logo.svg) no-repeat;
+    background: url(../images/DigitalGarage_logo.svg) no-repeat;
     background-size: 93.4px 30px;
     display: inline-block;
     height: 34px;
@@ -9772,7 +9772,7 @@ body {
 }
 
 .navbar.navbar-default.navbar-openshift .navbar-brand {
-    background: transparent url(../_images/DigitalGarage_logo.svg) no-repeat 50% 21px;
+    background: transparent url(../images/DigitalGarage_logo.svg) no-repeat 50% 21px;
     background-size: contain;
     margin-left: 119px;
     margin-right: 15px;
