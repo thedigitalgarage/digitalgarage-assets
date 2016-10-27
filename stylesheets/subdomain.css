@@ -9413,7 +9413,7 @@ body {
 
 .footer-digital-garage {
     background-color: #fff;
-    border-bottom: 38px solid #438c9f;
+    border-bottom: 38px solid ##00171d;
     bottom: 0;
     font-size: 12px;
     height: 100px;
@@ -9685,6 +9685,27 @@ body {
 @media (min-width: 600px) {
     .navbar.navbar-default.navbar-openshift .dropdown-menu>li.submenu.hover>a:after {
         border-left-color: black
+    }
+}
+
+.navbar.navbar-default.navbar-digital-garage .navbar-brand {
+    background: transparent url(../images/DigitalGarage_logo.svg) no-repeat 50% 21px;
+    background-size: contain;
+    margin-left: 119px;
+    margin-right: 15px;
+    padding-top: 22px;
+    width: 158px
+}
+
+@media (min-width: 360px) {
+    .navbar.navbar-default.navbar-digital-garage .navbar-brand {
+        background-position: 50% 15px;
+        width: 220px
+    }
+    .ie6 .navbar.navbar-default.navbar-digital-garage .navbar-brand,
+    .ie7 .navbar.navbar-default.navbar-digital-garage .navbar-brand,
+    .ie8 .navbar.navbar-default.navbar-digital-garage .navbar-brand {
+        background-position: 50% 14px
     }
 }
 
