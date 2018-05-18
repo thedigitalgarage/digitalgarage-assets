@@ -1,31 +1,5 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
-
-body {
-    margin: 0
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-    display: block
-}
-
 audio,
 canvas,
 progress,
@@ -304,18 +278,6 @@ th {
     box-sizing: border-box
 }
 
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-}
-
-body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #404040;
-    background-color: white
-}
 
 input,
 button,
@@ -906,14 +868,6 @@ pre code {
     overflow-y: scroll
 }
 
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px
-}
-
 .container:before,
 .container:after {
     content: " ";
@@ -922,24 +876,6 @@ pre code {
 
 .container:after {
     clear: both
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px
-    }
 }
 
 .container-fluid {
@@ -4202,13 +4138,6 @@ tbody.collapse.in {
     display: block
 }
 
-@media (min-width: 768px) {
-    .navbar>.container .navbar-brand,
-    .navbar>.container-fluid .navbar-brand {
-        margin-left: -25px
-    }
-}
-
 .navbar-toggle {
     position: relative;
     float: right;
@@ -5015,31 +4944,6 @@ a.badge:focus {
 
 .jumbotron>hr {
     border-top-color: #cecece
-}
-
-.container .jumbotron,
-.container-fluid .jumbotron {
-    border-radius: 6px
-}
-
-.jumbotron .container {
-    max-width: 100%
-}
-
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        padding-top: 48px;
-        padding-bottom: 48px
-    }
-    .container .jumbotron,
-    .container-fluid .jumbotron {
-        padding-left: 60px;
-        padding-right: 60px
-    }
-    .jumbotron h1,
-    .jumbotron .h1 {
-        font-size: 63px
-    }
 }
 
 .thumbnail {
@@ -9403,25 +9307,6 @@ img {
     font-style: normal
 }
 
-html {
-    min-height: 100%;
-    position: relative
-}
-
-body {
-    margin-bottom: 140px
-}
-
-.footer-digital-garage {
-    background-color: #fff;
-    border-bottom: 38px solid #00171d;
-    bottom: 0;
-    font-size: 12px;
-    height: 100px;
-    left: 0;
-    position: absolute;
-    width: 100%
-}
 
 .footer-digital-garage a {
     color: #131313;
