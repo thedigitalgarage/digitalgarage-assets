@@ -868,9 +868,9 @@ a code { color: inherit; }
 span.icon > .fa { cursor: default; }
 .admonitionblock td.icon [class^="fa icon-"] { font-size: 2.5em; cursor: default; }
 .admonitionblock td.icon .icon-note:before { content: "\f05a"; color: #4E9FDD; }
-.admonitionblock td.icon .icon-tip:before { content: "\f0eb"; color: #2C8596; }
-.admonitionblock td.icon .icon-warning:before { content: "\f071"; color: #ec7a08; }
-.admonitionblock td.icon .icon-caution:before { content: "\f06d"; color: #ec7a08; }
+.admonitionblock td.icon .icon-tip:before { content: "\f0eb"; color: #3EC300; }
+.admonitionblock td.icon .icon-warning:before { content: "\f071"; color: #FFAD00; }
+.admonitionblock td.icon .icon-caution:before { content: "\f06d"; color: #FFAD00; }
 .admonitionblock td.icon .icon-important:before { content: "\f06a"; color: #c00; }
 .conum[data-value] { display: inline-block; color: white !important; background-color: #c00; -webkit-border-radius: 100px; border-radius: 100px; text-align: center; width: 20px; height: 20px; font-size: 12px; line-height: 20px; font-family: "Open Sans", "Sans", sans-serif; font-style: normal; font-weight: bold; text-indent: -1px; }
 .conum[data-value] * { color: white !important; }
