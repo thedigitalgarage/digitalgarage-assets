@@ -372,6 +372,14 @@ License: https://creativecommons.org/licenses/by/2.0/
   padding: 3px 0 20px;
 }
 
+.breadcrumb>li::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #868e96;
+    content: "/";
+}
+
 @media screen and (min-width: 768px) {
   .breadcrumb {
     border-bottom: 1px solid #e7e7e7;
