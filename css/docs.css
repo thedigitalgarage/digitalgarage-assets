@@ -451,10 +451,13 @@ h2 > a.anchor, h3 > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor {
   z-index: 1001;
 }
 
-h2 > a.anchor::before, h3 > a.anchor::before, h4 > a.anchor:before, h5 > a.anchor:before, h6 > a.anchor:before {
-  content: fas fa-link;
+h2 > a.anchor:before, h3 > a.anchor:before, h4 > a.anchor:before, h5 > a.anchor:before, h6 > a.anchor:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f167";
+  /* content: "\f0c1";
+  font-family: FontAwesome; */
   display: block;
-  font-family: FontAwesome;
   font-size: 0.7em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
